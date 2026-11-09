@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "overview": "ພາບລວມ",
+    "people": "ບຸກຄະລາກອນ",
+    "work": "ວຽກປະຈຳວັນ",
+    "admin": "ການບໍລິຫານ"
+  },
+  "dashboard": "ພາບລວມ",
+  "employees": "ພະນັກງານ",
+  "departments": "ພະແນກ",
+  "positions": "ຕຳແໜ່ງ",
+  "recruitment": "ການຮັບສະໝັກ",
+  "attendance": "ການເຂົ້າວຽກ",
+  "leave": "ການລາພັກ",
+  "payroll": "ເງິນເດືອນ",
+  "payslips": "ສະລິບເງິນເດືອນ",
+  "performance": "ການປະເມີນຜົນ",
+  "reports": "ລາຍງານ",
+  "users": "ຜູ້ໃຊ້ ແລະ ສິດ",
+  "settings": "ການຕັ້ງຄ່າ",
+  "account": "ບັນຊີຂອງຂ້ອຍ"
+}

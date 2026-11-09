@@ -1,0 +1,57 @@
+{
+  "title": "Reports",
+  "tabs": {
+    "headcount": "Headcount",
+    "attendance": "Attendance",
+    "leave": "Leave",
+    "payroll": "Payroll"
+  },
+  "descriptions": {
+    "headcount": "Employees per department by status and gender.",
+    "attendance": "Days per status and hours worked, per person, for a date range.",
+    "leave": "Leave entitled, used and left, per person, for a year.",
+    "payroll": "Each month's payroll in a year, by department."
+  },
+  "filters": {
+    "department": "Department",
+    "allDepartments": "All departments",
+    "from": "From",
+    "to": "To",
+    "year": "Year"
+  },
+  "exportExcel": "Excel",
+  "exportCsv": "CSV",
+  "exportLabel": "Export {format}",
+  "total": "Total",
+  "rows": "{count} rows",
+  "empty": "No data for these filters",
+  "rangeTooLong": "Choose a range of one year or less.",
+  "loadError": "Couldn't load the report.",
+  "print": "Print report",
+  "printedOn": "Printed {date}",
+  "printFilters": "Filters",
+  "printAll": "All departments",
+  "printPeriod": "Period {from} to {to}",
+  "printYear": "Year {year}",
+  "codes": {
+    "PROBATION": "Probation",
+    "ACTIVE": "Active",
+    "RESIGNED": "Resigned",
+    "TERMINATED": "Terminated",
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "OTHER": "Other",
+    "PRESENT": "Present",
+    "LATE": "Late",
+    "ABSENT": "Absent",
+    "HALF_DAY": "Half day",
+    "LEAVE": "On leave",
+    "PENDING": "Pending approval",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "CANCELLED": "Cancelled",
+    "DRAFT": "Draft",
+    "PAID": "Paid",
+    "MIXED": "Mixed"
+  }
+}

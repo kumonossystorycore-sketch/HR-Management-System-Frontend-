@@ -1,0 +1,143 @@
+{
+  "title": "Leave",
+  "tabs": {
+    "mine": "My leave",
+    "approvals": "To approve",
+    "records": "All requests",
+    "types": "Leave types"
+  },
+  "status": {
+    "PENDING": "Pending",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "CANCELLED": "Cancelled"
+  },
+  "unpaid": "Unpaid",
+  "balances": {
+    "title": "Leave in {year}",
+    "left": "Left",
+    "of": "of {total} days",
+    "days": "{count} days",
+    "none": "Your leave for this year hasn't been opened yet. Contact HR.",
+    "used": "{used} used",
+    "carried": "{carried} carried over"
+  },
+  "request": {
+    "action": "Request leave",
+    "title": "Request leave",
+    "type": "Leave type",
+    "start": "From",
+    "end": "To",
+    "reason": "Reason",
+    "reasonHint": "Your manager will see this.",
+    "document": "Supporting document",
+    "documentHint": "PDF, JPEG or PNG, up to 5 MB",
+    "documentRequired": "This kind of leave needs a document, such as a medical certificate.",
+    "chooseFile": "Choose file",
+    "removeFile": "Remove file",
+    "uploading": "Uploading…",
+    "daysNote": "Only working days count; weekends and public holidays don't.",
+    "submit": "Send request",
+    "sent": "Leave request sent ({days} days). Your manager has been notified.",
+    "tooLarge": "The file is larger than 5 MB.",
+    "wrongType": "Use a PDF, JPEG or PNG file.",
+    "endBeforeStart": "The end date can't be before the start date.",
+    "remaining": "{days} days left"
+  },
+  "columns": {
+    "employee": "Employee",
+    "type": "Type",
+    "dates": "Dates",
+    "days": "Days",
+    "reason": "Reason",
+    "status": "Status",
+    "document": "Document",
+    "submitted": "Sent",
+    "actions": "Actions"
+  },
+  "tableCaption": "Leave requests",
+  "myCaption": "My leave requests",
+  "approvalsCaption": "Requests waiting for approval",
+  "dateRange": "{start} – {end}",
+  "decidedBy": "by {name}",
+  "openDocument": "Open document {name}",
+  "noDocument": "—",
+  "empty": {
+    "mine": "You haven't requested leave yet.",
+    "approvals": "Nothing is waiting for approval. Nice!",
+    "records": "No requests match the filters."
+  },
+  "filters": {
+    "search": "Employee",
+    "searchPlaceholder": "Name or code",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "type": "Type",
+    "allTypes": "All types",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "from": "From",
+    "to": "To"
+  },
+  "export": "Export CSV",
+  "exportNeedsDates": "Choose a date range before exporting.",
+  "approve": {
+    "action": "Approve",
+    "actionOf": "Approve {name}'s request",
+    "title": "Approve {name}'s leave?",
+    "description": "{type} · {dates} · {days} days. The days are deducted and attendance is recorded as On leave.",
+    "note": "Note (optional)",
+    "confirm": "Approve",
+    "done": "Approved"
+  },
+  "reject": {
+    "action": "Reject",
+    "actionOf": "Reject {name}'s request",
+    "title": "Reject {name}'s leave?",
+    "description": "{type} · {dates}. The employee will see your reason.",
+    "note": "Reason",
+    "confirm": "Reject",
+    "done": "Rejected"
+  },
+  "cancel": {
+    "action": "Cancel",
+    "actionOf": "Cancel the request for {dates}",
+    "title": "Cancel this leave request?",
+    "description": "{type} · {dates}.",
+    "approvedNote": "This request is approved: the days go back to the employee and future On-leave attendance is removed.",
+    "reason": "Reason (optional)",
+    "confirm": "Cancel request",
+    "keep": "Keep it",
+    "done": "Request cancelled"
+  },
+  "types": {
+    "code": "Code",
+    "name": "Name",
+    "nameLo": "Name in Lao",
+    "nameEn": "Name in English",
+    "annualDays": "Days per year",
+    "paid": "Paid",
+    "requiresDocument": "Needs a document",
+    "deductsBalance": "Uses balance",
+    "active": "Active",
+    "caption": "Leave types",
+    "add": "Add type",
+    "editOf": "Edit {name}",
+    "createTitle": "Add leave type",
+    "editTitle": "Edit leave type",
+    "codeHint": "2–30 English letters, digits or _, like MATERNITY",
+    "codeLocked": "The code can't change after creation.",
+    "daysHint": "Half days are fine, like 1.5",
+    "saved": "Leave type saved",
+    "inactive": "Inactive"
+  },
+  "openYear": {
+    "action": "Open a new leave year",
+    "title": "Open leave for {year}",
+    "description": "Creates {year} balances for every current employee and every type that uses a balance. Unused annual leave carries over as the policy allows. Existing balances are left alone, so it is safe to run again (for example after new hires).",
+    "year": "Year",
+    "confirm": "Open leave",
+    "done": "Opened {year}: {created} new balances"
+  },
+  "loadError": "Couldn't load leave."
+}

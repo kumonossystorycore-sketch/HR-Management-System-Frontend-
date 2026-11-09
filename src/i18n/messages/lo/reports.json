@@ -1,0 +1,57 @@
+{
+  "title": "ລາຍງານ",
+  "tabs": {
+    "headcount": "ຈຳນວນພະນັກງານ",
+    "attendance": "ການເຂົ້າວຽກ",
+    "leave": "ການລາພັກ",
+    "payroll": "ເງິນເດືອນ"
+  },
+  "descriptions": {
+    "headcount": "ພະນັກງານຕາມພະແນກ ແຍກຕາມສະຖານະ ແລະ ເພດ.",
+    "attendance": "ຈຳນວນມື້ຕາມສະຖານະ ແລະ ຊົ່ວໂມງເຮັດວຽກ ຂອງແຕ່ລະຄົນ ໃນຊ່ວງວັນທີ.",
+    "leave": "ວັນພັກທີ່ໄດ້ຮັບ, ໃຊ້ໄປ ແລະ ເຫຼືອ ຂອງແຕ່ລະຄົນໃນປີ.",
+    "payroll": "ເງິນເດືອນແຕ່ລະເດືອນຂອງປີ ຕາມພະແນກ."
+  },
+  "filters": {
+    "department": "ພະແນກ",
+    "allDepartments": "ທຸກພະແນກ",
+    "from": "ແຕ່ວັນທີ",
+    "to": "ຫາວັນທີ",
+    "year": "ປີ"
+  },
+  "exportExcel": "Excel",
+  "exportCsv": "CSV",
+  "exportLabel": "ສົ່ງອອກ {format}",
+  "total": "ລວມ",
+  "rows": "{count} ແຖວ",
+  "empty": "ບໍ່ມີຂໍ້ມູນສຳລັບຕົວກອງນີ້",
+  "rangeTooLong": "ເລືອກຊ່ວງບໍ່ເກີນ 1 ປີ.",
+  "loadError": "ໂຫຼດລາຍງານບໍ່ໄດ້.",
+  "print": "ພິມລາຍງານ",
+  "printedOn": "ພິມເມື່ອ {date}",
+  "printFilters": "ເງື່ອນໄຂ",
+  "printAll": "ທຸກພະແນກ",
+  "printPeriod": "ໄລຍະ {from} ຫາ {to}",
+  "printYear": "ປີ {year}",
+  "codes": {
+    "PROBATION": "ທົດລອງງານ",
+    "ACTIVE": "ເຮັດວຽກຢູ່",
+    "RESIGNED": "ລາອອກ",
+    "TERMINATED": "ເລີກຈ້າງ",
+    "MALE": "ຊາຍ",
+    "FEMALE": "ຍິງ",
+    "OTHER": "ອື່ນໆ",
+    "PRESENT": "ມາວຽກ",
+    "LATE": "ມາຊ້າ",
+    "ABSENT": "ຂາດວຽກ",
+    "HALF_DAY": "ເຄິ່ງວັນ",
+    "LEAVE": "ລາພັກ",
+    "PENDING": "ລໍຖ້າອະນຸມັດ",
+    "APPROVED": "ອະນຸມັດແລ້ວ",
+    "REJECTED": "ບໍ່ອະນຸມັດ",
+    "CANCELLED": "ຍົກເລີກແລ້ວ",
+    "DRAFT": "ຮ່າງ",
+    "PAID": "ຈ່າຍແລ້ວ",
+    "MIXED": "ຫຼາຍສະຖານະ"
+  }
+}

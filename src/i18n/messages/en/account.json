@@ -1,0 +1,15 @@
+{
+  "title": "My account",
+  "profile": "Account details",
+  "email": "E-mail",
+  "roles": "Roles",
+  "employee": "Employee",
+  "department": "Department",
+  "position": "Position",
+  "lastLogin": "Previous sign-in",
+  "language": "Language",
+  "languageHint": "Used on screen and in e-mails sent to you.",
+  "languageSaved": "Language saved",
+  "sessions": "Sessions",
+  "sessionsHint": "If you stayed signed in on another computer, sign out of every device here."
+}

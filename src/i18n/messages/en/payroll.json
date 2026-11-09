@@ -1,0 +1,138 @@
+{
+  "title": "Payroll",
+  "periodsTitle": "Payroll periods",
+  "periodsCaption": "Payroll periods",
+  "status": {
+    "DRAFT": "Draft",
+    "PENDING": "Pending approval",
+    "APPROVED": "Approved",
+    "PAID": "Paid",
+    "MIXED": "Mixed"
+  },
+  "itemType": {
+    "ALLOWANCE": "Allowance",
+    "OVERTIME": "Overtime",
+    "DEDUCTION": "Deduction"
+  },
+  "columns": {
+    "period": "Period",
+    "employees": "Employees",
+    "totalNet": "Total net",
+    "status": "Status",
+    "employee": "Employee",
+    "basic": "Basic",
+    "allowances": "Allowances",
+    "overtime": "Overtime",
+    "deductions": "Deductions",
+    "net": "Net",
+    "actions": "Actions"
+  },
+  "period": "Period {period}",
+  "people": "{count} people",
+  "open": "Open",
+  "openOf": "Open period {period}",
+  "empty": {
+    "periods": "No payroll periods yet",
+    "periodsText": "Create the first period to calculate pay from each employee's basic salary.",
+    "rows": "Nothing matches your search."
+  },
+  "loadError": "Couldn't load payroll.",
+  "generate": {
+    "action": "Create payroll period",
+    "title": "Create payroll period",
+    "description": "Creates a draft for every current employee hired by the end of the month, at their current basic salary. Safe to run again: people who already have a row are skipped (useful for new hires).",
+    "month": "Month",
+    "year": "Year",
+    "departments": "Departments",
+    "allDepartments": "All departments",
+    "confirm": "Create period",
+    "done": "Created {created} rows ({skipped} already there)"
+  },
+  "detail": {
+    "back": "All periods",
+    "summary": "{count} people · total net {total}",
+    "searchPlaceholder": "Name or code",
+    "searchLabel": "Search employees",
+    "caption": "Payroll for {period}",
+    "edit": "Details",
+    "editOf": "Pay details for {name}",
+    "pdfOf": "Download {name}'s payslip",
+    "export": "Export CSV",
+    "manualDeductions": "Add deductions (such as absences or unpaid leave) yourself in each person's details."
+  },
+  "steps": {
+    "submit": {
+      "action": "Submit for approval",
+      "title": "Submit payroll for {period}?",
+      "description": "All drafts in this period ({count} people) are locked and sent for approval.",
+      "done": "Submitted ({count} people)"
+    },
+    "return": {
+      "action": "Return for changes",
+      "title": "Return {period} to draft?",
+      "description": "HR can edit it again and resubmit.",
+      "done": "Returned to draft ({count} people)"
+    },
+    "approve": {
+      "action": "Approve",
+      "title": "Approve payroll for {period}?",
+      "description": "Total net {total} for {count} people. Employees will see their payslips.",
+      "done": "Approved ({count} people)"
+    },
+    "markPaid": {
+      "action": "Mark as paid",
+      "title": "Mark {period} as paid?",
+      "description": "Use this after the money has been transferred. It can't be undone.",
+      "done": "Marked as paid ({count} people)"
+    }
+  },
+  "workflow": {
+    "DRAFT": "Draft: HR is preparing it",
+    "PENDING": "Waiting for Super Admin approval",
+    "APPROVED": "Approved: waiting for payment",
+    "PAID": "Paid: employees can view and download their payslips."
+  },
+  "row": {
+    "title": "Pay for {name} · {period}",
+    "basic": "Basic salary",
+    "basicHint": "For this period only. The employee's basic salary doesn't change.",
+    "saveBasic": "Save",
+    "items": "Items",
+    "noItems": "No allowances, overtime or deductions yet.",
+    "addItem": "Add item",
+    "type": "Type",
+    "label": "Description",
+    "labelPlaceholder": "e.g. Transport",
+    "amount": "Amount",
+    "hours": "Hours",
+    "hoursHint": "For overtime: enter hours and the amount is worked out from the policy, or enter the amount yourself.",
+    "needAmount": "Enter an amount (or hours for overtime).",
+    "add": "Add",
+    "remove": "Remove",
+    "removeOf": "Remove item {label}",
+    "net": "Net pay",
+    "locked": "This period was submitted or approved, so it can't be changed.",
+    "saved": "Saved",
+    "hoursValue": "{hours} h",
+    "removeRow": "Remove from this period",
+    "removeRowTitle": "Remove {name} from {period}?",
+    "removeRowDone": "Removed from the period"
+  },
+  "payslips": {
+    "title": "Payslips",
+    "caption": "My payslips",
+    "empty": "No payslips yet",
+    "emptyText": "Payslips appear here once each month's payroll is approved.",
+    "view": "View",
+    "viewOf": "View payslip for {period}",
+    "download": "Download PDF",
+    "downloadOf": "Download PDF for {period}",
+    "detailTitle": "Payslip for {period}",
+    "earnings": "Earnings",
+    "deductions": "Deductions",
+    "total": "Total",
+    "paidOn": "Paid on {date}",
+    "pdfLanguage": "PDF language",
+    "private": "Pay data is confidential. Only you and authorised staff can see it."
+  }
+}

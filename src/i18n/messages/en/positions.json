@@ -1,0 +1,47 @@
+{
+  "title": "Positions",
+  "summary": "{count} positions",
+  "add": "Add position",
+  "searchPlaceholder": "Search position title",
+  "searchLabel": "Search positions",
+  "columns": {
+    "title": "Position",
+    "department": "Department",
+    "employees": "Employees",
+    "actions": "Actions"
+  },
+  "tableCaption": "Position list",
+  "includeArchived": "Show archived",
+  "archivedBadge": "Archived",
+  "filters": {
+    "department": "Department",
+    "allDepartments": "All departments"
+  },
+  "empty": {
+    "title": "No positions yet",
+    "text": "Create positions in each department before adding employees.",
+    "filteredTitle": "No positions match your search"
+  },
+  "loadError": "Couldn't load positions.",
+  "fields": {
+    "title": "Position title",
+    "department": "Department",
+    "departmentLocked": "A position can't move to another department. Create a new one there instead.",
+    "description": "Description"
+  },
+  "form": {
+    "createTitle": "Add position",
+    "editTitle": "Edit position",
+    "created": "Position created",
+    "saved": "Position saved"
+  },
+  "remove": {
+    "title": "Delete {name}?",
+    "description": "Only positions nobody holds can be deleted. If it has history, it is archived instead.",
+    "confirm": "Delete position",
+    "deleted": "Position deleted",
+    "archived": "The position has history, so it was archived instead"
+  },
+  "editOf": "Edit {name}",
+  "deleteOf": "Delete {name}"
+}

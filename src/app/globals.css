@@ -1,0 +1,158 @@
+/*
+ * SYSTORY HRMS — Tailwind CSS v4 + shadcn/ui theme, from the Phase 2 design system (tokens.json).
+ * Fonts are self-hosted with @fontsource/noto-sans-lao (imported in app/[locale]/layout.tsx):
+ * no request to Google, and Lao text renders the same on every machine.
+ */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* ---------- shadcn/ui variables, mapped to SYSTORY tokens ---------- */
+:root {
+  --radius: 10px;                     /* radius-md: buttons, inputs, selects */
+
+  --background: #f3f7f6;              /* background */
+  --foreground: #202b2a;              /* text-primary */
+  --card: #ffffff;                    /* surface */
+  --card-foreground: #202b2a;
+  --popover: #ffffff;
+  --popover-foreground: #202b2a;
+
+  --primary: #13877f;                 /* primary-teal (white text 4.38:1, labels at 600) */
+  --primary-foreground: #ffffff;      /* on-primary */
+  --secondary: #e3f2f0;               /* teal-soft */
+  --secondary-foreground: #086b67;    /* deep-teal, 5.51:1 on teal-soft */
+  --muted: #f3f7f6;                   /* background */
+  --muted-foreground: #64716f;        /* text-secondary, 4.70:1 on background */
+  --accent: #e3f2f0;                  /* teal-soft: hovered menu items */
+  --accent-foreground: #086b67;       /* deep-teal */
+  --destructive: #dc2626;             /* danger */
+  --destructive-foreground: #ffffff;
+
+  --border: #dce7e4;                  /* border: decorative hairlines only */
+  --input: #7d8d8a;                   /* border-strong: control edges, 3:1 or more */
+  --ring: #086b67;                    /* focus-ring = deep-teal */
+
+  --chart-1: #008a7e;
+  --chart-2: #c0504d;
+  --chart-3: #2f6fb3;
+  --chart-4: #b07f00;
+  --chart-5: #8a5aa6;
+
+  --sidebar: #086b67;                 /* deep-teal */
+  --sidebar-foreground: #c4e3df;      /* sidebar-text, 4.65:1 */
+  --sidebar-primary: #ffffff;         /* active item = white pill */
+  --sidebar-primary-foreground: #086b67;
+  --sidebar-accent: rgba(255, 255, 255, 0.1);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.16);
+  --sidebar-ring: #ffffff;
+}
+
+/* ---------- Tailwind theme ---------- */
+@theme inline {
+  --font-sans: "Noto Sans Lao", "Noto Sans", system-ui, sans-serif;
+
+  /* shadcn/ui colour utilities: bg-primary, text-muted-foreground, border-input … */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* SYSTORY names, for the places shadcn has no role: text-deep-teal, bg-success-soft … */
+  --color-primary-teal: #13877f;
+  --color-deep-teal: #086b67;
+  --color-secondary-teal: #2da99b;
+  --color-brand-burgundy: #8b2027;
+  --color-burgundy-soft: #f7e9ea;
+  --color-surface: #ffffff;
+  --color-teal-soft: #e3f2f0;
+  --color-border-strong: #7d8d8a;
+  --color-success: #16a34a;
+  --color-success-soft: #e8f5ec;
+  --color-success-text: #166534;
+  --color-warning: #f59e0b;
+  --color-warning-soft: #fef3dc;
+  --color-warning-text: #92400e;
+  --color-danger: #dc2626;
+  --color-danger-soft: #fdecec;
+  --color-danger-text: #b91c1c;
+  --color-info: #0284c7;
+  --color-info-soft: #e6f3fa;
+  --color-info-text: #0369a1;
+  --color-chart-6: #5e8c31;
+
+  /* Radii: rounded-sm 6, rounded-md 10 (controls), rounded-lg/xl 16 (cards, dialogs), rounded-full pills */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 16px;
+
+  /* Shadows, always paired with a border hairline */
+  --shadow-sm: 0 1px 2px rgba(32, 43, 42, 0.06);
+  --shadow-md: 0 6px 16px rgba(8, 107, 103, 0.10);
+  --shadow-lg: 0 20px 48px rgba(32, 43, 42, 0.20);
+
+  /* Type scale (Lao needs leading of 1.6 or more): text-display, text-h1 … text-caption */
+  --text-display: 32px;  --text-display--line-height: 48px;  --text-display--font-weight: 700;
+  --text-h1: 24px;       --text-h1--line-height: 38px;       --text-h1--font-weight: 600;
+  --text-h2: 20px;       --text-h2--line-height: 32px;       --text-h2--font-weight: 600;
+  --text-h3: 16px;       --text-h3--line-height: 28px;       --text-h3--font-weight: 600;
+  --text-body: 15px;     --text-body--line-height: 26px;
+  --text-body-sm: 14px;  --text-body-sm--line-height: 24px;
+  --text-label: 13px;    --text-label--line-height: 22px;    --text-label--font-weight: 500;
+  --text-caption: 12px;  --text-caption--line-height: 20px;
+  --text-stat: 28px;     --text-stat--line-height: 36px;     --text-stat--font-weight: 700;
+
+  /* App shell */
+  --spacing-sidebar: 264px;
+  --spacing-header: 64px;
+  --spacing-control-sm: 32px;
+  --spacing-control-md: 40px;
+  --spacing-control-lg: 48px;
+  --container-content: 1440px;
+
+  --animate-pulse-soft: pulse-soft 1.4s ease-in-out infinite;
+  @keyframes pulse-soft { 50% { opacity: 0.45; } }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-background text-foreground font-sans text-body antialiased; }
+  /* Every interactive element gets the same visible focus ring (design system: Interaction states). */
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+  /* Lao stacks marks above and below the line: never squeeze headings. */
+  h1, h2, h3 { text-wrap: balance; }
+  .tabular { font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}

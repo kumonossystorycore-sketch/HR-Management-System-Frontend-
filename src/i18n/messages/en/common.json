@@ -1,0 +1,87 @@
+{
+  "appName": "SYSTORY HRMS",
+  "product": "HRMS",
+  "tagline": "Human resource management",
+  "slogan": "Let's step up together with SYSTORY",
+  "loading": "Loading...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "back": "Back",
+  "retry": "Try again",
+  "close": "Close",
+  "signOut": "Sign out",
+  "signOutEverywhere": "Sign out of all devices",
+  "myAccount": "My account",
+  "language": "ພາສາ / Language",
+  "languageLo": "ພາສາລາວ",
+  "languageEn": "English",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "mainMenu": "Main menu",
+  "notifications": "Notifications",
+  "notificationsCount": "Notifications ({count} unread)",
+  "breadcrumb": "Breadcrumb",
+  "home": "Home",
+  "skipToContent": "Skip to content",
+  "required": "required",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "notFoundTitle": "Page not found",
+  "notFoundText": "The link may be wrong, or the page has moved.",
+  "goHome": "Go to the home page",
+  "errorTitle": "Something went wrong",
+  "errorText": "Please try again. If it keeps happening, contact HR.",
+  "roles": {
+    "Super Admin": "Super Admin",
+    "HR Admin": "HR Admin",
+    "Manager": "Manager",
+    "Employee": "Employee"
+  },
+  "pager": {
+    "range": "Showing {from}–{to} of {total}",
+    "nav": "Pagination",
+    "prev": "Previous page",
+    "next": "Next page",
+    "page": "Page {page}"
+  },
+  "actions": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "exportExcel": "Export Excel",
+    "exportCsv": "Export CSV",
+    "view": "View",
+    "saveChanges": "Save changes",
+    "all": "All",
+    "search": "Search",
+    "more": "More"
+  },
+  "feedback": {
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "archived": "Archived, because it has history",
+    "exportFailed": "Couldn't export. Please try again.",
+    "formSummary": "Fix {count} fields before saving."
+  },
+  "fieldErrors": {
+    "duplicate": "This value is already in use. Use another one.",
+    "invalid": "This value is not valid."
+  },
+  "gender": {
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "OTHER": "Other"
+  },
+  "employmentStatus": {
+    "PROBATION": "Probation",
+    "ACTIVE": "Active",
+    "RESIGNED": "Resigned",
+    "TERMINATED": "Terminated",
+    "ARCHIVED": "Archived"
+  },
+  "none": "—",
+  "yes": "Yes",
+  "no": "No",
+  "forbiddenTitle": "You don't have access to this page",
+  "forbiddenText": "If you think you should, contact your system administrator."
+}

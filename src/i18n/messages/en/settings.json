@@ -1,0 +1,227 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "company": "Company",
+    "work": "Working time",
+    "policies": "Policies",
+    "notifications": "Notifications",
+    "holidays": "Public holidays",
+    "audit": "Audit log"
+  },
+  "readOnly": "You can view the settings but not change them.",
+  "saved": "Settings saved",
+  "save": "Save settings",
+  "company": {
+    "name": "Company name",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "logoHint": "PNG or JPEG, up to 1 MB. Saved as soon as you choose the file, and shown at the top of PDF payslips.",
+    "hint": "Shown on payslips and in the system's emails.",
+    "logo": "Company logo",
+    "logoAlt": "Company logo",
+    "noLogo": "No logo yet",
+    "uploadLogo": "Upload logo",
+    "changeLogo": "Change logo",
+    "removeLogo": "Remove logo",
+    "logoSaved": "Logo saved",
+    "logoRemoved": "Logo removed",
+    "logoWrongType": "Only PNG or JPEG.",
+    "logoTooLarge": "The file is larger than 1 MB."
+  },
+  "work": {
+    "days": "Working days",
+    "start": "Work starts",
+    "end": "Work ends",
+    "break": "Break (minutes)",
+    "grace": "Late after (minutes)",
+    "graceHint": "Checking in later than this counts as Late.",
+    "halfDay": "Half day below (minutes worked)",
+    "note": "Changes apply to check-ins from now on. Past records don't change.",
+    "weekdays": {
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat",
+      "7": "Sun"
+    }
+  },
+  "policies": {
+    "leave": "Leave policy",
+    "annualDays": "Annual leave (days)",
+    "maxCarry": "Most days carried to next year",
+    "probation": "Allow annual leave during probation",
+    "payroll": "Payroll policy",
+    "overtime": "Overtime rate (×)",
+    "overtimeHint": "e.g. 1.5 = hourly pay × 1.5",
+    "monthlyHours": "Standard hours per month",
+    "monthlyHoursHint": "Used to work out hourly pay for overtime",
+    "payOn": "Payday",
+    "payOnHint": "e.g. last day of the month, or the 25th",
+    "general": "General",
+    "currency": "Currency",
+    "currencyHint": "3-letter code such as LAK. Applies to new payroll periods.",
+    "locale": "Default language for new users",
+    "localeHint": "New accounts without a chosen language, and their invitation e-mails, use this language. Each person can switch after signing in."
+  },
+  "holidays": {
+    "caption": "Public holidays",
+    "add": "Add holiday",
+    "date": "Date",
+    "nameLo": "Name in Lao",
+    "nameEn": "Name in English",
+    "year": "Year",
+    "empty": "No holidays this year yet",
+    "editOf": "Edit {name}",
+    "deleteOf": "Delete {name}",
+    "createTitle": "Add holiday",
+    "editTitle": "Edit holiday",
+    "saved": "Holiday saved",
+    "removed": "Holiday deleted",
+    "removeTitle": "Delete {name}?",
+    "removeText": "The day becomes a working day. Leave already approved doesn't change.",
+    "note": "Holidays don't count as leave days and are never recorded as absences.",
+    "weekday": "Day"
+  },
+  "audit": {
+    "caption": "Audit log",
+    "when": "When",
+    "user": "User",
+    "action": "Action",
+    "entity": "Record",
+    "details": "Details",
+    "system": "System",
+    "show": "View",
+    "showOf": "View details of {action} {entity}",
+    "before": "Before",
+    "after": "After",
+    "ip": "IP",
+    "empty": "Nothing matches the filters",
+    "entityFilter": "Record",
+    "allEntities": "All records",
+    "actionFilter": "Action",
+    "actionPlaceholder": "e.g. UPDATE",
+    "from": "From",
+    "to": "To",
+    "note": "Every important change is recorded and can't be deleted. Passwords and tokens are never logged.",
+    "changed": "{count} fields changed",
+    "noDiff": "No details",
+    "field": "Field",
+    "actions": {
+      "CREATE": "Create",
+      "UPDATE": "Update",
+      "DELETE": "Delete",
+      "ARCHIVE": "Archive",
+      "STATUS_CHANGE": "Change status",
+      "ASSIGN_MANAGER": "Assign manager",
+      "APPROVE": "Approve",
+      "REJECT": "Reject",
+      "CANCEL": "Cancel",
+      "SUBMIT": "Submit",
+      "RETURN": "Return",
+      "MARK_PAID": "Mark paid",
+      "GENERATE": "Generate payroll",
+      "CHECK_IN": "Check in",
+      "CHECK_OUT": "Check out",
+      "CORRECT": "Correct times",
+      "OPEN_LEAVE_YEAR": "Open leave year",
+      "CONVERT": "Hire as employee",
+      "RECORD_RESULT": "Record interview result",
+      "SCORE": "Score",
+      "ACKNOWLEDGE": "Acknowledge",
+      "REVIEW_CYCLE": "Open review cycle",
+      "UPDATE_PHOTO": "Change photo",
+      "REMOVE_PHOTO": "Remove photo",
+      "UPDATE_CV": "Change CV",
+      "REMOVE_CV": "Remove CV",
+      "UPDATE_LOGO": "Change logo",
+      "REMOVE_LOGO": "Remove logo",
+      "LOGIN": "Sign in",
+      "LOGIN_FAILED": "Failed sign-in",
+      "LOGOUT": "Sign out",
+      "LOGOUT_ALL": "Sign out everywhere",
+      "PASSWORD_CHANGE": "Change password",
+      "PASSWORD_RESET": "Reset password",
+      "PASSWORD_RESET_REQUEST": "Ask for a reset link",
+      "RESET_PASSWORD": "Reset password (admin)",
+      "TOKEN_REUSE": "Reused token detected"
+    },
+    "entities": {
+      "Employee": "Employee",
+      "Department": "Department",
+      "Position": "Position",
+      "Attendance": "Attendance",
+      "LeaveRequest": "Leave request",
+      "LeaveType": "Leave type",
+      "LeaveBalance": "Leave balance",
+      "Payroll": "Payroll",
+      "PayrollItem": "Payroll item",
+      "PayrollPeriod": "Payroll period",
+      "JobVacancy": "Vacancy",
+      "Applicant": "Applicant",
+      "Interview": "Interview",
+      "PerformanceReview": "Performance review",
+      "User": "User",
+      "Role": "Role",
+      "CompanySetting": "Company settings",
+      "Holiday": "Public holiday",
+      "Auth": "Sign-in"
+    }
+  },
+  "loadError": "Couldn't load settings.",
+  "notifications": {
+    "hint": "Choose which notifications the system sends. A kind that is switched off reaches nobody. Password reset and invitation e-mails are always sent.",
+    "groups": {
+      "leave": "Leave",
+      "payroll": "Payroll",
+      "recruitment": "Recruitment",
+      "performance": "Performance"
+    },
+    "events": {
+      "leave": {
+        "requested": "New leave request",
+        "approved": "Leave request approved",
+        "rejected": "Leave request rejected",
+        "cancelled": "Leave request cancelled by HR"
+      },
+      "payroll": {
+        "submitted": "Payroll waiting for approval",
+        "returned": "Payroll returned for changes",
+        "payslipReady": "Payslip ready"
+      },
+      "recruitment": {
+        "interviewAssigned": "Assigned to interview an applicant"
+      },
+      "performance": {
+        "cycleOpened": "Review cycle opened",
+        "assigned": "A review to write",
+        "submitted": "Review ready for the employee",
+        "acknowledged": "Employee acknowledged a review"
+      }
+    },
+    "to": {
+      "leave": {
+        "requested": "Sent to the approvers",
+        "approved": "Sent to the employee who asked",
+        "rejected": "Sent to the employee who asked",
+        "cancelled": "Sent to the employee who asked"
+      },
+      "payroll": {
+        "submitted": "Sent to payroll approvers",
+        "returned": "Sent to whoever submitted it",
+        "payslipReady": "Sent to the employee"
+      },
+      "recruitment": {
+        "interviewAssigned": "Sent to the interviewer"
+      },
+      "performance": {
+        "cycleOpened": "Sent to the reviewers",
+        "assigned": "Sent to the reviewer",
+        "submitted": "Sent to the employee reviewed",
+        "acknowledged": "Sent to the reviewer"
+      }
+    }
+  }
+}

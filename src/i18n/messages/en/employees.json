@@ -1,0 +1,129 @@
+{
+  "title": "Employees",
+  "summary": "{total} people · {active} working · {inactive} inactive",
+  "add": "Add employee",
+  "searchPlaceholder": "Search name, code, email or phone",
+  "searchLabel": "Search employees",
+  "filters": {
+    "department": "Department",
+    "allDepartments": "All departments",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "includeArchived": "Show archived"
+  },
+  "columns": {
+    "employee": "Employee",
+    "department": "Department",
+    "position": "Position",
+    "hireDate": "Hire date",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "tableCaption": "Employee list",
+  "editOf": "Edit {name}",
+  "viewOf": "View {name}",
+  "empty": {
+    "title": "No employees yet",
+    "text": "Add your first employee to get started.",
+    "filteredTitle": "No employees match your search",
+    "filteredText": "Try another search or clear the filters.",
+    "clear": "Clear filters"
+  },
+  "loadError": "Couldn't load employees.",
+  "archivedBadge": "Archived",
+  "detail": {
+    "notFound": "This employee doesn't exist, or you can't see them.",
+    "hiredOn": "Hired {date}",
+    "manager": "Manager: {name}",
+    "tabs": {
+      "overview": "Overview",
+      "attendance": "Attendance"
+    },
+    "personal": "Personal details",
+    "employment": "Employment",
+    "emergency": "Emergency contact",
+    "account": "Login account",
+    "noAccount": "This employee has no login account yet.",
+    "leave": "Leave in {year}",
+    "noLeave": "Leave for this year hasn't been opened yet.",
+    "daysLeft": "{left} of {total} days left",
+    "accountActive": "Active",
+    "accountDisabled": "Disabled",
+    "neverSignedIn": "Never signed in",
+    "attendanceEmpty": "No attendance in the last 30 days.",
+    "attendanceRecent": "Last 30 days",
+    "archivedNotice": "This employee is archived because they have history. They can no longer be edited."
+  },
+  "fields": {
+    "employeeCode": "Employee code",
+    "employeeCodeHint": "Leave empty and the system creates one, like SYS-0249",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "gender": "Gender",
+    "dateOfBirth": "Date of birth",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "department": "Department",
+    "position": "Position",
+    "positionHint": "Choose a department first",
+    "hireDate": "Hire date",
+    "employmentStatus": "Status",
+    "basicSalary": "Basic salary",
+    "basicSalaryHint": "In kip; visible only to people allowed to see salaries",
+    "emergencyContactName": "Contact name",
+    "emergencyContactRelation": "Relationship",
+    "emergencyContactPhone": "Contact phone",
+    "accountEmail": "Sign-in email",
+    "role": "Role",
+    "lastLogin": "Last sign-in"
+  },
+  "form": {
+    "createTitle": "Add employee",
+    "editTitle": "Edit employee",
+    "personal": "Personal details",
+    "employment": "Employment",
+    "emergency": "Emergency contact",
+    "account": "Login account",
+    "createAccount": "Create a login account for this employee",
+    "createAccountHint": "We'll email an invitation to the employee's address so they can choose their own password. If the link expires, they can use “Forgot password?” to get a new one.",
+    "statusHint": "To change the status later, use “Change status” on the employee's page.",
+    "created": "Employee added",
+    "createdInvite": "Employee added and invitation sent",
+    "accountFailed": "The employee was saved, but the account wasn't created: {reason} You can create it later under Users & roles.",
+    "selectPlaceholder": "— Choose —"
+  },
+  "status": {
+    "change": "Change status",
+    "title": "Change status of {name}",
+    "description": "Changing to Resigned or Terminated also disables their login account.",
+    "new": "New status",
+    "submit": "Save status",
+    "done": "Status changed"
+  },
+  "remove": {
+    "action": "Delete",
+    "title": "Delete {name}?",
+    "description": "If the employee has history (attendance, leave, payroll…), they are archived instead, to keep that history. Otherwise they are deleted for good.",
+    "confirm": "Delete employee",
+    "deleted": "Employee deleted",
+    "archived": "The employee has history, so they were archived instead"
+  },
+  "self": {
+    "title": "My contact details",
+    "description": "You can update your phone, address and emergency contact. For anything else, contact HR.",
+    "saved": "Contact details saved"
+  },
+  "export": "Export Excel",
+  "photo": {
+    "change": "Change photo",
+    "upload": "Upload photo",
+    "remove": "Remove photo",
+    "hint": "JPEG, PNG or WebP, up to 2 MB",
+    "saved": "Photo saved",
+    "removed": "Photo removed",
+    "tooLarge": "The photo is larger than 2 MB.",
+    "wrongType": "Use a JPEG, PNG or WebP image.",
+    "label": "Photo of {name}"
+  }
+}

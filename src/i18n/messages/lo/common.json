@@ -1,0 +1,87 @@
+{
+  "appName": "SYSTORY HRMS",
+  "product": "HRMS",
+  "tagline": "ລະບົບບໍລິຫານບຸກຄະລາກອນ",
+  "slogan": "Let's step up together with SYSTORY",
+  "loading": "ກຳລັງໂຫຼດ...",
+  "save": "ບັນທຶກ",
+  "cancel": "ຍົກເລີກ",
+  "back": "ກັບຄືນ",
+  "retry": "ລອງໃໝ່",
+  "close": "ປິດ",
+  "signOut": "ອອກຈາກລະບົບ",
+  "signOutEverywhere": "ອອກຈາກລະບົບທຸກອຸປະກອນ",
+  "myAccount": "ບັນຊີຂອງຂ້ອຍ",
+  "language": "ພາສາ / Language",
+  "languageLo": "ພາສາລາວ",
+  "languageEn": "English",
+  "openMenu": "ເປີດເມນູ",
+  "closeMenu": "ປິດເມນູ",
+  "mainMenu": "ເມນູຫຼັກ",
+  "notifications": "ການແຈ້ງເຕືອນ",
+  "notificationsCount": "ການແຈ້ງເຕືອນ ({count} ລາຍການທີ່ຍັງບໍ່ໄດ້ອ່ານ)",
+  "breadcrumb": "ທາງນຳທາງ",
+  "home": "ໜ້າຫຼັກ",
+  "skipToContent": "ຂ້າມໄປຫາເນື້ອຫາ",
+  "required": "ຕ້ອງໃສ່",
+  "showPassword": "ສະແດງລະຫັດຜ່ານ",
+  "hidePassword": "ເຊື່ອງລະຫັດຜ່ານ",
+  "notFoundTitle": "ບໍ່ພົບໜ້ານີ້",
+  "notFoundText": "ລິ້ງອາດຈະຜິດ ຫຼື ໜ້ານີ້ຖືກຍ້າຍແລ້ວ.",
+  "goHome": "ກັບໄປໜ້າຫຼັກ",
+  "errorTitle": "ມີບາງຢ່າງຜິດພາດ",
+  "errorText": "ກະລຸນາລອງໃໝ່ອີກຄັ້ງ. ຖ້າຍັງບໍ່ໄດ້, ຕິດຕໍ່ຝ່າຍບຸກຄະລາກອນ.",
+  "roles": {
+    "Super Admin": "ຜູ້ດູແລລະບົບສູງສຸດ",
+    "HR Admin": "ຜູ້ດູແລຝ່າຍບຸກຄະລາກອນ",
+    "Manager": "ຫົວໜ້າພະແນກ",
+    "Employee": "ພະນັກງານ"
+  },
+  "pager": {
+    "range": "ສະແດງ {from}–{to} ຈາກ {total} ລາຍການ",
+    "nav": "ການແບ່ງໜ້າ",
+    "prev": "ໜ້າກ່ອນ",
+    "next": "ໜ້າຖັດໄປ",
+    "page": "ໜ້າ {page}"
+  },
+  "actions": {
+    "add": "ເພີ່ມ",
+    "edit": "ແກ້ໄຂ",
+    "delete": "ລຶບ",
+    "exportExcel": "ສົ່ງອອກ Excel",
+    "exportCsv": "ສົ່ງອອກ CSV",
+    "view": "ເບິ່ງ",
+    "saveChanges": "ບັນທຶກການປ່ຽນແປງ",
+    "all": "ທັງໝົດ",
+    "search": "ຄົ້ນຫາ",
+    "more": "ເພີ່ມເຕີມ"
+  },
+  "feedback": {
+    "saved": "ບັນທຶກແລ້ວ",
+    "deleted": "ລຶບແລ້ວ",
+    "archived": "ຍ້າຍໄປເກັບໄວ້ແລ້ວ ເພາະມີປະຫວັດ",
+    "exportFailed": "ສົ່ງອອກບໍ່ໄດ້. ກະລຸນາລອງໃໝ່.",
+    "formSummary": "ກະລຸນາແກ້ໄຂ {count} ຊ່ອງກ່ອນບັນທຶກ."
+  },
+  "fieldErrors": {
+    "duplicate": "ຂໍ້ມູນນີ້ມີຢູ່ໃນລະບົບແລ້ວ. ກະລຸນາໃຊ້ຄ່າອື່ນ.",
+    "invalid": "ຂໍ້ມູນໃນຊ່ອງນີ້ບໍ່ຖືກຕ້ອງ."
+  },
+  "gender": {
+    "MALE": "ຊາຍ",
+    "FEMALE": "ຍິງ",
+    "OTHER": "ອື່ນໆ"
+  },
+  "employmentStatus": {
+    "PROBATION": "ທົດລອງງານ",
+    "ACTIVE": "ເຮັດວຽກຢູ່",
+    "RESIGNED": "ລາອອກ",
+    "TERMINATED": "ເລີກຈ້າງ",
+    "ARCHIVED": "ເກັບໄວ້"
+  },
+  "none": "—",
+  "yes": "ແມ່ນ",
+  "no": "ບໍ່",
+  "forbiddenTitle": "ທ່ານບໍ່ມີສິດເຂົ້າໜ້ານີ້",
+  "forbiddenText": "ຖ້າທ່ານຄິດວ່າຄວນມີສິດ, ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບ."
+}

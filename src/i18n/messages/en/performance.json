@@ -1,0 +1,108 @@
+{
+  "title": "Performance",
+  "tabs": {
+    "aboutMe": "My reviews",
+    "toReview": "To review",
+    "all": "All reviews"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "SUBMITTED": "Submitted",
+    "ACKNOWLEDGED": "Acknowledged"
+  },
+  "criteria": {
+    "workQuality": "Work quality",
+    "communication": "Communication",
+    "teamwork": "Teamwork",
+    "responsibility": "Responsibility",
+    "productivity": "Productivity"
+  },
+  "scale": {
+    "1": "Needs much improvement",
+    "2": "Below expectations",
+    "3": "Meets expectations",
+    "4": "Exceeds expectations",
+    "5": "Outstanding"
+  },
+  "columns": {
+    "employee": "Employee",
+    "reviewer": "Reviewer",
+    "period": "Period",
+    "score": "Overall",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "caption": "Performance reviews",
+  "open": "Open",
+  "openOf": "Open {name}'s review",
+  "write": "Review",
+  "writeOf": "Review {name}",
+  "outOf": "{score} / 5",
+  "noScore": "—",
+  "empty": {
+    "aboutMe": "No reviews of you yet",
+    "aboutMeText": "Reviews appear here once your reviewer submits them.",
+    "toReview": "Nothing to review",
+    "all": "No reviews match the filters"
+  },
+  "filters": {
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "year": "Year",
+    "allYears": "All years",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "searchPlaceholder": "Name or code",
+    "searchLabel": "Search employees"
+  },
+  "review": {
+    "title": "Review of {name}",
+    "period": "Period {start} – {end}",
+    "reviewer": "Reviewer: {name}",
+    "overall": "Overall",
+    "comments": "Reviewer's comments",
+    "commentsHint": "Strengths, what to develop, and goals for the next period.",
+    "noComments": "No comments",
+    "feedback": "Employee's response",
+    "feedbackHint": "Optional. Your reviewer and HR will see it.",
+    "saveDraft": "Save draft",
+    "saved": "Draft saved",
+    "submit": "Submit review",
+    "submitConfirm": "Once submitted it can't be changed and the employee will see it. Submit now?",
+    "submitted": "Review submitted",
+    "missing": "Score every criterion before submitting.",
+    "acknowledge": "Acknowledge review",
+    "acknowledged": "Acknowledged",
+    "readonlyNote": "This review was submitted and can't be changed.",
+    "scoreOf": "{criterion}: {score} of 5",
+    "submittedOn": "Submitted {date}",
+    "acknowledgedOn": "Acknowledged {date}",
+    "remove": "Delete draft",
+    "removed": "Deleted",
+    "changeReviewer": "Change reviewer",
+    "reviewerSaved": "Reviewer changed"
+  },
+  "cycle": {
+    "action": "Open a review cycle",
+    "title": "Open a review cycle",
+    "description": "Creates a draft review for every current employee. Each person's department manager is the reviewer and is notified.",
+    "start": "From",
+    "end": "To",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "confirm": "Open cycle",
+    "done": "Created {created} reviews ({existing} already there)",
+    "skipped": "Skipped {count}: managers, and people in departments without a manager. Add their reviews by hand."
+  },
+  "create": {
+    "action": "Add review",
+    "title": "Add review",
+    "employee": "Employee",
+    "reviewer": "Reviewer",
+    "start": "From",
+    "end": "To",
+    "done": "Review added",
+    "sameperson": "The reviewer must be someone else."
+  },
+  "loadError": "Couldn't load reviews."
+}

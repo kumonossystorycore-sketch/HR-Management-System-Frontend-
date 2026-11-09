@@ -1,0 +1,92 @@
+{
+  "title": "Attendance",
+  "tabs": {
+    "mine": "My attendance",
+    "records": "Attendance records"
+  },
+  "status": {
+    "PRESENT": "Present",
+    "LATE": "Late",
+    "ABSENT": "Absent",
+    "HALF_DAY": "Half day",
+    "LEAVE": "On leave",
+    "NOT_CHECKED_IN": "Not checked in",
+    "DONE": "Done for today"
+  },
+  "earlyLeave": "Left early",
+  "corrected": "Corrected",
+  "correctedReason": "Corrected by HR: {reason}",
+  "me": {
+    "greeting": "Hello, {name}",
+    "today": "Today",
+    "clockLabel": "Current time (Vientiane)",
+    "workHours": "Working hours {start} – {end} · {break}-minute break",
+    "checkIn": "Check in",
+    "checkOut": "Check out",
+    "checkedInAt": "In {time}",
+    "checkedOutAt": "Out {time}",
+    "worked": "Worked {duration} h",
+    "checkedInToast": "Checked in at {time}",
+    "checkedOutToast": "Checked out at {time}",
+    "serverNote": "Times are recorded by the server clock. You can check in once a day.",
+    "notWorkingDay": "Today isn't a working day. If you are working, you can still check in.",
+    "onLeave": "You're on leave today. Enjoy your rest!",
+    "doneToday": "You're done for today.",
+    "noEmployee": "This account isn't linked to an employee, so it can't check in.",
+    "week": "This week",
+    "weekEmpty": "No records this week yet.",
+    "loadError": "Couldn't load attendance."
+  },
+  "columns": {
+    "employee": "Employee",
+    "department": "Department",
+    "date": "Date",
+    "checkIn": "In",
+    "checkOut": "Out",
+    "worked": "Hours",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "tableCaption": "Attendance records",
+  "filters": {
+    "from": "From",
+    "to": "To",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "search": "Employee",
+    "searchPlaceholder": "Name or code"
+  },
+  "empty": {
+    "title": "No records in this period",
+    "text": "Try other dates or clear the filters."
+  },
+  "export": "Export CSV",
+  "correct": {
+    "action": "Correct",
+    "actionOf": "Correct {name}'s record for {date}",
+    "title": "Correct attendance",
+    "description": "{name} · {date}. Every correction is kept in the audit log.",
+    "checkIn": "Check-in time",
+    "checkOut": "Check-out time",
+    "status": "Status",
+    "note": "Note",
+    "reason": "Reason for the correction",
+    "reasonHint": "Required. The employee will see it.",
+    "keepStatus": "Work it out from the times (no change)",
+    "submit": "Save correction",
+    "done": "Record corrected",
+    "nothing": "Change at least one thing."
+  },
+  "absences": {
+    "action": "Record absences",
+    "title": "Record absences",
+    "description": "Employees who didn't check in and weren't on leave on the chosen day are recorded as Absent. Running it again adds no duplicates.",
+    "date": "Date",
+    "submit": "Record",
+    "done": "Recorded {count} absences",
+    "skipped": "That day isn't a working day, so nothing was recorded."
+  },
+  "historyEmpty": "No attendance in the last 30 days."
+}

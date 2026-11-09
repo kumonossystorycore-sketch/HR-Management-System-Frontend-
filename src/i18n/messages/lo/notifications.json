@@ -1,0 +1,28 @@
+{
+  "leave": {
+    "requested": "ມີຄຳຮ້ອງລາພັກໃໝ່ {days} ວັນ ({startDate} – {endDate})",
+    "approved": "ຄຳຮ້ອງລາພັກຂອງທ່ານໄດ້ຮັບການອະນຸມັດ ({startDate} – {endDate})",
+    "rejected": "ຄຳຮ້ອງລາພັກຂອງທ່ານຖືກປະຕິເສດ: {reason}",
+    "cancelled": "ຄຳຮ້ອງລາພັກຂອງທ່ານຖືກຍົກເລີກໂດຍຝ່າຍບຸກຄະລາກອນ"
+  },
+  "payroll": {
+    "payslipReady": "ສະລິບເງິນເດືອນງວດ {period} ພ້ອມແລ້ວ",
+    "returned": "ເງິນເດືອນງວດ {period} ຖືກສົ່ງກັບໃຫ້ແກ້ໄຂ ({count} ລາຍການ)",
+    "submitted": "ເງິນເດືອນງວດ {period} ລໍຖ້າການອະນຸມັດ ({count} ລາຍການ)"
+  },
+  "recruitment": {
+    "interviewAssigned": "ທ່ານຖືກມອບໝາຍໃຫ້ສຳພາດ {applicant}"
+  },
+  "performance": {
+    "assigned": "ທ່ານມີການປະເມີນຜົນງານຂອງ {employee} ທີ່ຕ້ອງຂຽນ",
+    "cycleOpened": "ເປີດຮອບປະເມີນຜົນງານ {periodStart} – {periodEnd} ແລ້ວ",
+    "submitted": "ການປະເມີນຜົນງານຂອງທ່ານພ້ອມໃຫ້ເບິ່ງແລ້ວ",
+    "acknowledged": "{employee} ໄດ້ຮັບຊາບການປະເມີນແລ້ວ"
+  },
+  "title": "ການແຈ້ງເຕືອນ",
+  "empty": "ບໍ່ມີການແຈ້ງເຕືອນໃໝ່",
+  "markAllRead": "ໝາຍວ່າອ່ານແລ້ວທັງໝົດ",
+  "unknown": "ການແຈ້ງເຕືອນ",
+  "loadError": "ໂຫຼດການແຈ້ງເຕືອນບໍ່ໄດ້.",
+  "retry": "ລອງໃໝ່"
+}

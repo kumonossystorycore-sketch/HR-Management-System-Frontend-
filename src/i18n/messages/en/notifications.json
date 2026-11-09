@@ -1,0 +1,28 @@
+{
+  "leave": {
+    "requested": "New leave request: {days} days ({startDate} – {endDate})",
+    "approved": "Your leave is approved ({startDate} – {endDate})",
+    "rejected": "Your leave request was rejected: {reason}",
+    "cancelled": "HR cancelled your leave request"
+  },
+  "payroll": {
+    "payslipReady": "Your payslip for {period} is ready",
+    "returned": "Payroll {period} was returned for changes ({count} rows)",
+    "submitted": "Payroll {period} is waiting for approval ({count} rows)"
+  },
+  "recruitment": {
+    "interviewAssigned": "You are interviewing {applicant}"
+  },
+  "performance": {
+    "assigned": "You have a review to write for {employee}",
+    "cycleOpened": "A review cycle opened: {periodStart} – {periodEnd}",
+    "submitted": "Your performance review is ready to read",
+    "acknowledged": "{employee} acknowledged their review"
+  },
+  "title": "Notifications",
+  "empty": "No new notifications",
+  "markAllRead": "Mark all as read",
+  "unknown": "Notification",
+  "loadError": "Could not load notifications.",
+  "retry": "Try again"
+}

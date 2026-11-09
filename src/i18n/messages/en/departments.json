@@ -1,0 +1,57 @@
+{
+  "title": "Departments",
+  "summary": "{count} departments",
+  "add": "Add department",
+  "searchPlaceholder": "Search name or code",
+  "searchLabel": "Search departments",
+  "columns": {
+    "name": "Department",
+    "manager": "Manager",
+    "employees": "Employees",
+    "positions": "Positions",
+    "actions": "Actions"
+  },
+  "tableCaption": "Department list",
+  "noManager": "No manager yet",
+  "includeArchived": "Show archived",
+  "archivedBadge": "Archived",
+  "empty": {
+    "title": "No departments yet",
+    "text": "Create your first department to organise employees.",
+    "filteredTitle": "No departments match your search"
+  },
+  "loadError": "Couldn't load departments.",
+  "fields": {
+    "code": "Department code",
+    "codeHint": "2–20 English letters, digits, - or _, like HR",
+    "name": "Department name",
+    "description": "Description",
+    "manager": "Manager",
+    "managerHint": "Choose from current employees of this department"
+  },
+  "form": {
+    "createTitle": "Add department",
+    "editTitle": "Edit department",
+    "created": "Department created",
+    "saved": "Department saved"
+  },
+  "manager": {
+    "action": "Set manager",
+    "actionOf": "Set manager of {name}",
+    "title": "Manager of {name}",
+    "none": "— No manager —",
+    "done": "Manager saved",
+    "noCandidates": "No current employees in this department yet.",
+    "note": "The manager sees and approves requests from this department when their account has the Manager role."
+  },
+  "remove": {
+    "title": "Delete {name}?",
+    "description": "Only departments without employees can be deleted. If it has history, it is archived instead.",
+    "confirm": "Delete department",
+    "deleted": "Department deleted",
+    "archived": "The department has history, so it was archived instead"
+  },
+  "editOf": "Edit {name}",
+  "deleteOf": "Delete {name}",
+  "viewEmployees": "View employees"
+}

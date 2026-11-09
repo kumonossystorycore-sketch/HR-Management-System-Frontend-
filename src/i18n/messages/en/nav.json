@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "overview": "Overview",
+    "people": "People",
+    "work": "Daily work",
+    "admin": "Administration"
+  },
+  "dashboard": "Dashboard",
+  "employees": "Employees",
+  "departments": "Departments",
+  "positions": "Positions",
+  "recruitment": "Recruitment",
+  "attendance": "Attendance",
+  "leave": "Leave",
+  "payroll": "Payroll",
+  "payslips": "Payslips",
+  "performance": "Performance",
+  "reports": "Reports",
+  "users": "Users and roles",
+  "settings": "Settings",
+  "account": "My account"
+}

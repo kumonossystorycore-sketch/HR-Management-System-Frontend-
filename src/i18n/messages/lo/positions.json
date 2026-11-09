@@ -1,0 +1,47 @@
+{
+  "title": "ຕຳແໜ່ງ",
+  "summary": "{count} ຕຳແໜ່ງ",
+  "add": "ເພີ່ມຕຳແໜ່ງ",
+  "searchPlaceholder": "ຄົ້ນຫາຊື່ຕຳແໜ່ງ",
+  "searchLabel": "ຄົ້ນຫາຕຳແໜ່ງ",
+  "columns": {
+    "title": "ຕຳແໜ່ງ",
+    "department": "ພະແນກ",
+    "employees": "ພະນັກງານ",
+    "actions": "ຈັດການ"
+  },
+  "tableCaption": "ລາຍຊື່ຕຳແໜ່ງ",
+  "includeArchived": "ສະແດງລາຍການທີ່ເກັບໄວ້",
+  "archivedBadge": "ເກັບໄວ້",
+  "filters": {
+    "department": "ພະແນກ",
+    "allDepartments": "ທຸກພະແນກ"
+  },
+  "empty": {
+    "title": "ຍັງບໍ່ມີຕຳແໜ່ງ",
+    "text": "ສ້າງຕຳແໜ່ງໃນແຕ່ລະພະແນກ ກ່ອນເພີ່ມພະນັກງານ.",
+    "filteredTitle": "ບໍ່ພົບຕຳແໜ່ງທີ່ກົງກັບການຄົ້ນຫາ"
+  },
+  "loadError": "ໂຫຼດລາຍຊື່ຕຳແໜ່ງບໍ່ໄດ້.",
+  "fields": {
+    "title": "ຊື່ຕຳແໜ່ງ",
+    "department": "ພະແນກ",
+    "departmentLocked": "ຍ້າຍຕຳແໜ່ງໄປພະແນກອື່ນບໍ່ໄດ້. ສ້າງຕຳແໜ່ງໃໝ່ໃນພະແນກນັ້ນແທນ.",
+    "description": "ລາຍລະອຽດ"
+  },
+  "form": {
+    "createTitle": "ເພີ່ມຕຳແໜ່ງ",
+    "editTitle": "ແກ້ໄຂຕຳແໜ່ງ",
+    "created": "ສ້າງຕຳແໜ່ງແລ້ວ",
+    "saved": "ບັນທຶກຕຳແໜ່ງແລ້ວ"
+  },
+  "remove": {
+    "title": "ລຶບຕຳແໜ່ງ {name}?",
+    "description": "ລຶບໄດ້ສະເພາະຕຳແໜ່ງທີ່ບໍ່ມີພະນັກງານ. ຖ້າເຄີຍມີປະຫວັດ, ລະບົບຈະເກັບໄວ້ແທນການລຶບ.",
+    "confirm": "ລຶບຕຳແໜ່ງ",
+    "deleted": "ລຶບຕຳແໜ່ງແລ້ວ",
+    "archived": "ຕຳແໜ່ງມີປະຫວັດ ຈຶ່ງຖືກເກັບໄວ້ແທນ"
+  },
+  "editOf": "ແກ້ໄຂ {name}",
+  "deleteOf": "ລຶບ {name}"
+}

@@ -1,0 +1,14 @@
+{
+  "required": "Enter {field}",
+  "email": "Enter an e-mail like name@systory.la",
+  "passwordMin": "Use at least 8 characters",
+  "passwordMix": "Use at least one letter and one digit",
+  "passwordMatch": "The two passwords do not match",
+  "passwordSame": "Choose a password different from the current one",
+  "phone": "Use digits, like +856 20 1234 5678",
+  "date": "Choose a date",
+  "money": "Enter an amount (up to 2 decimals)",
+  "code": "Use English letters, digits, - or _ only",
+  "choose": "Choose {field}",
+  "minReason": "Give a reason (at least 3 characters)"
+}
