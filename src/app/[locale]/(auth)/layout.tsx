@@ -25,7 +25,7 @@ export default async function AuthLayout({ children, params }: { children: React
             <span className="text-caption leading-[18px] text-muted-foreground">{tc('tagline')}</span>
           </span>
         </div>
-        <div className="flex max-w-[480px] flex-col gap-4">
+        <div className="flex max-w-[520px] flex-col gap-4">
           <p className="text-[26px] leading-[40px] font-bold sm:text-display">{t('heroTitle')}</p>
           <p className="text-body text-sidebar-foreground">{t('heroText')}</p>
           <p className="mt-2 text-body-sm font-semibold">{tc('slogan')}</p>

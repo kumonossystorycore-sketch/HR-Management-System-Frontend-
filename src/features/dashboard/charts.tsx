@@ -31,11 +31,11 @@ const AXIS = { fontSize: 12, fill: 'var(--muted-foreground)' };
 const GRID = 'var(--border)';
 /** Series colours, fixed per entity (never per rank). Status colours are the reserved status palette. */
 const STATUS_COLOR = {
-  PRESENT: '#16A34A',
-  LATE: '#F59E0B',
-  HALF_DAY: '#8A5AA6',
-  LEAVE: '#0284C7',
-  ABSENT: '#DC2626',
+  PRESENT: 'var(--color-success)',
+  LATE: 'var(--color-warning)',
+  HALF_DAY: 'var(--color-chart-5)',
+  LEAVE: 'var(--color-info)',
+  ABSENT: 'var(--color-danger)',
 } as const;
 const STATUS_ORDER = ['PRESENT', 'LATE', 'HALF_DAY', 'LEAVE', 'ABSENT'] as const;
 const EMPLOYMENT_ORDER = ['PROBATION', 'ACTIVE', 'RESIGNED', 'TERMINATED'] as const;

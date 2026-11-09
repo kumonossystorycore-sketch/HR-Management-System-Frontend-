@@ -17,7 +17,7 @@
   --popover: #ffffff;
   --popover-foreground: #202b2a;
 
-  --primary: #13877f;                 /* primary-teal (white text 4.38:1, labels at 600) */
+  --primary: #12827a;                 /* primary-teal (white text 4.67:1) */
   --primary-foreground: #ffffff;      /* on-primary */
   --secondary: #e3f2f0;               /* teal-soft */
   --secondary-foreground: #086b67;    /* deep-teal, 5.51:1 on teal-soft */
@@ -87,7 +87,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   /* SYSTORY names, for the places shadcn has no role: text-deep-teal, bg-success-soft … */
-  --color-primary-teal: #13877f;
+  --color-primary-teal: #12827a;
   --color-deep-teal: #086b67;
   --color-secondary-teal: #2da99b;
   --color-brand-burgundy: #8b2027;
